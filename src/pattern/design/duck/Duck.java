@@ -5,4 +5,8 @@ public class Duck {
     {
         System.out.println("Duck!");
     }
+    public void fly()
+    {
+        System.out.println("Fly!");
+    }
 }
