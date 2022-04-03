@@ -16,6 +16,13 @@ public class Main {
         mallardDuck.display();
         redHeadDuck.display();
         rubberDuck.display();
-        rubberDuck.fly();//! Rubber duck is not supposed to fly.
+
+        MallardDuck mallardDuck1 = new MallardDuck();
+        mallardDuck1.fly();
+        mallardDuck1.quack();
+
+        RedHeadDuck redHeadDuck1 = new RedHeadDuck();
+        redHeadDuck1.fly();
+        redHeadDuck1.quack();
     }
 }
