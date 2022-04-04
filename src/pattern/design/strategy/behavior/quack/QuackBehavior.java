@@ -1,4 +1,4 @@
-package pattern.design.behavior.quack;
+package pattern.design.strategy.behavior.quack;
 
 public interface QuackBehavior {
     void quack();

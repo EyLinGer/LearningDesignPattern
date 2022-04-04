@@ -1,6 +1,6 @@
-package pattern.design.character;
+package pattern.design.strategy.character;
 
-import pattern.design.behavior.attack.AttackWithKnife;
+import pattern.design.strategy.behavior.attack.AttackWithKnife;
 
 public class Queen extends Character{
     public Queen()

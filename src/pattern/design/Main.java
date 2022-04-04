@@ -1,13 +1,9 @@
 package pattern.design;
 
+import pattern.design.strategy.StrategyPattern;
 
 public class Main {
 
     public static void main(String[] args) {
-        DuckExample duckExample = new DuckExample();
-        duckExample.run();
-        System.out.println("----------");
-        GameExample gameExample = new GameExample();
-        gameExample.run();
     }
 }

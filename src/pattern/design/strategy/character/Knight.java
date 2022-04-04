@@ -1,6 +1,6 @@
-package pattern.design.character;
+package pattern.design.strategy.character;
 
-import pattern.design.behavior.attack.AttackWithSword;
+import pattern.design.strategy.behavior.attack.AttackWithSword;
 
 public class Knight extends Character{
     public Knight()

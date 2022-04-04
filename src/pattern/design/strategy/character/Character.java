@@ -1,6 +1,6 @@
-package pattern.design.character;
+package pattern.design.strategy.character;
 
-import pattern.design.behavior.attack.AttackBehavior;
+import pattern.design.strategy.behavior.attack.AttackBehavior;
 
 public class Character {
     protected AttackBehavior attackBehavior;

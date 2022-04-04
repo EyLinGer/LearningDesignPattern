@@ -1,9 +1,9 @@
-package pattern.design.duck;
+package pattern.design.strategy.duck;
 
-import pattern.design.behavior.fly.FlyBehavior;
-import pattern.design.behavior.fly.FlyNoway;
-import pattern.design.behavior.quack.MuteQuack;
-import pattern.design.behavior.quack.QuackBehavior;
+import pattern.design.strategy.behavior.fly.FlyBehavior;
+import pattern.design.strategy.behavior.fly.FlyNoway;
+import pattern.design.strategy.behavior.quack.MuteQuack;
+import pattern.design.strategy.behavior.quack.QuackBehavior;
 
 public class Duck {
     public Duck()

@@ -1,11 +1,11 @@
-package pattern.design;
+package pattern.design.strategy;
 
-import pattern.design.behavior.attack.AttachWithAxe;
-import pattern.design.behavior.attack.AttackWithBowAndArrow;
-import pattern.design.behavior.attack.AttackWithKnife;
-import pattern.design.behavior.attack.AttackWithSword;
-import pattern.design.character.*;
-import pattern.design.character.Character;
+import pattern.design.strategy.behavior.attack.AttachWithAxe;
+import pattern.design.strategy.behavior.attack.AttackWithBowAndArrow;
+import pattern.design.strategy.behavior.attack.AttackWithKnife;
+import pattern.design.strategy.behavior.attack.AttackWithSword;
+import pattern.design.strategy.character.*;
+import pattern.design.strategy.character.Character;
 
 public class GameExample {
     public void run()

@@ -1,6 +1,6 @@
-package pattern.design.character;
+package pattern.design.strategy.character;
 
-import pattern.design.behavior.attack.AttackWithBowAndArrow;
+import pattern.design.strategy.behavior.attack.AttackWithBowAndArrow;
 
 public class King extends Character{
     public King()

@@ -1,4 +1,4 @@
-package pattern.design.behavior.attack;
+package pattern.design.strategy.behavior.attack;
 
 public class AttachWithAxe implements AttackBehavior{
     @Override

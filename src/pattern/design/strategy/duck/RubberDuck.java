@@ -1,4 +1,4 @@
-package pattern.design.duck;
+package pattern.design.strategy.duck;
 
 public class RubberDuck extends Duck{
     public void display()

@@ -1,11 +1,11 @@
-package pattern.design;
+package pattern.design.strategy;
 
-import pattern.design.behavior.fly.FlyNoway;
-import pattern.design.behavior.quack.MuteQuack;
-import pattern.design.duck.Duck;
-import pattern.design.duck.MallardDuck;
-import pattern.design.duck.RedHeadDuck;
-import pattern.design.duck.RubberDuck;
+import pattern.design.strategy.behavior.fly.FlyNoway;
+import pattern.design.strategy.behavior.quack.MuteQuack;
+import pattern.design.strategy.duck.Duck;
+import pattern.design.strategy.duck.MallardDuck;
+import pattern.design.strategy.duck.RedHeadDuck;
+import pattern.design.strategy.duck.RubberDuck;
 
 public class DuckExample {
     public void run()

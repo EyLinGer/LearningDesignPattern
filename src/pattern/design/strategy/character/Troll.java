@@ -1,6 +1,6 @@
-package pattern.design.character;
+package pattern.design.strategy.character;
 
-import pattern.design.behavior.attack.AttachWithAxe;
+import pattern.design.strategy.behavior.attack.AttachWithAxe;
 
 public class Troll extends Character{
     public Troll()
