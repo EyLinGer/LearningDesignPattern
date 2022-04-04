@@ -1,6 +1,6 @@
 package pattern.design.strategy;
 
-import pattern.design.strategy.behavior.attack.AttachWithAxe;
+import pattern.design.strategy.behavior.attack.AttackWithAxe;
 import pattern.design.strategy.behavior.attack.AttackWithBowAndArrow;
 import pattern.design.strategy.behavior.attack.AttackWithKnife;
 import pattern.design.strategy.behavior.attack.AttackWithSword;
@@ -22,7 +22,7 @@ public class GameExample {
 
         king.setAttackBehavior(new AttackWithKnife());
         queen.setAttackBehavior(new AttackWithBowAndArrow());
-        knight.setAttackBehavior(new AttachWithAxe());
+        knight.setAttackBehavior(new AttackWithAxe());
         troll.setAttackBehavior(new AttackWithSword());
 
         king.fight();
