@@ -1,12 +1,12 @@
 package pattern.design;
 
 
-import pattern.design.observer.ObserverPattern;
+import pattern.design.decorator.DecoratorPattern;
 
 public class Main {
 
     public static void main(String[] args) {
-        ObserverPattern observerPattern = new ObserverPattern();
-        observerPattern.run();
+        DecoratorPattern decoratorPattern = new DecoratorPattern();
+        decoratorPattern.run();
     }
 }
